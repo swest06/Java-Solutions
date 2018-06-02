@@ -14,5 +14,5 @@ public class IsReverse {
                     isReverse(s1.substring(1, s1.length()), s2.substring(0, s2.length()-1));
         }
     }
-    
+
 }
