@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * Created by swest06 on 02/06/2018.
  */
@@ -5,6 +7,7 @@ public class Date {
         private int day;
         private int month;
         private int year;
+
 
     public Date(){
         this.day = 1;
