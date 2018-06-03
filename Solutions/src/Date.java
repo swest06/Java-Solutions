@@ -57,4 +57,14 @@ public class Date {
         result = prime * result + getYear();
         return result;
     }
+
+    @Override
+    public String toString() {
+        return "Date{" +
+                "day=" + day +
+                ", month=" + month +
+                ", year=" + year +
+                '}';
+    }
+
 }
