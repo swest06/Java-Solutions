@@ -16,6 +16,8 @@ public class Univ2 {
         }
     }
 
+
+
     public void run(){
         HashMap<Univ2.Course, String> courses = new HashMap<>();
         courses.put(new Course("Computing", 600), "Computer Science");
@@ -27,4 +29,6 @@ public class Univ2 {
         System.out.println(courses.size());
         System.out.println(courses.keySet());
     }
+
+
 }

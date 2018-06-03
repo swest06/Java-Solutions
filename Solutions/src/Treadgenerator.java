@@ -6,10 +6,10 @@ public class Treadgenerator extends Thread {
         new Treadgenerator().run();
 
     }
-    public void run(){
-        for (int i = 0; i < 1000; i++) {
-            Thread
-
-        }
-    }
+//    public void run(){
+//        for (int i = 0; i < 1000; i++) {
+//            Thread
+//
+//        }
+//    }
 }
